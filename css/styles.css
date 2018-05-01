@@ -1,7 +1,6 @@
 body {
     /* background-color: black; */
-    font-family: 'Abril Fatface', cursive;
-    color: rgba(244 153 193);
+
     margin: -20px;
 }
 
@@ -45,7 +44,8 @@ body {
 header {
     max-width: 100%;
     margin: -10px;
-    /* background-color: black; */
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(244 153 193);
 }
 
 header img {
@@ -63,36 +63,29 @@ nav {
     font-size: 45px;
     height:70px;
     padding-top: 20px;
-    /* font-family: 'Abril Fatface', cursive; */
     font-family: 'Abril Fatface', cursive;
 
 }
+
 
 nav p {
     margin: 0 auto;
     text-align: center;
     width: 100%;
     background-color: black;
-    /* font-family: 'Abril Fatface', cursive; */
     font-family: 'Abril Fatface', cursive;
 }
 
 nav a {
     background-color: black;
-    /* padding-right:20px; */
     text-decoration: none;
     color: rgba(244 153 193);
     letter-spacing: 2px;
-    /* width: 120%; */
     font-size: 45px;
-    /* font-family: 'Abril Fatface', cursive; */
     font-family: 'Abril Fatface', cursive;
 }
 
 #iconshortcuts {
-  /* padding: 10px; */
-  /* position: relative; */
-
   margin-right: 40px;
   z-index:1
   color: rgba(244 153 193);
@@ -107,13 +100,11 @@ nav a {
   font-size: 75px;
   text-align: center !important;
   padding-bottom: 10px;
-
 }
-
 
 .blog {
   margin: 0 auto;
-      width: 70%;
+  width: 70%;
   padding: 20px;
   padding-left: 60px;
   padding-right: 60px;
@@ -135,12 +126,30 @@ nav a {
   padding-top: 40px;
   font-weight: 600;
   font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   margin- left: 35%
   margin-right: 35%
 }
 
+.news {
+  font-family: 'Abril Fatface', cursive;
+
+}
+
 .blogbody {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+  padding-bottom: 12px;
+  border-bottom:  1px solid black;
+  /* white-space:nowrap; */
+
+}
+
+.shows {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 40px;
   margin-left: 150px;
@@ -151,6 +160,13 @@ nav a {
   padding-bottom: 12px;
   border-bottom:  1px solid black;
 }
+
+
+/*
+.blogbody a {
+      clear: both;
+      display: inline;
+} */
 
 .mmddyyyy {
   display: inline-block;
@@ -178,9 +194,33 @@ a:hover {
   display: inline
   border:  1px solid black;
   text-decoration: none;
-    color: black;
-    border:  1px solid black;
-    padding: 4px;
+  color: black;
+  padding: 4px;
+}
+
+.blogbody p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  line-height: 16pt;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  float: left;
+  display: inline;
+  width: 75%;
+  /* align-items: center; */
+
+}
+
+.blogbody img {
+    padding: 20px;
+    width= 25%;
+ /* float: right; */
+  /* justify-content: space-between;
+  display: inline; */
+  align-self: center;
+
 }
 
 a {
@@ -189,19 +229,14 @@ a {
     font-size: 16px;
     color: black;
 }
-
-.blogbody img {
-  padding: 10px;
-}
-
 .video {
   font-size: 24pt;
-        width: 70%;
+  width: 70%;
   text-align: center;
-height: 600px;
-margin: 0 auto;
-    width: 70%;
-margin-bottom: 150px;
+  height: 600px;
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 150px;
 }
 
 .videos {
