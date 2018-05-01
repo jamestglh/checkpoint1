@@ -1,0 +1,237 @@
+body {
+    /* background-color: black; */
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(244 153 193);
+    margin: -20px;
+}
+
+.body1 {
+    background-image: url(../img/jamesmosh2.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+
+}
+
+.body2 {
+    background-image: url(../img/jamesmosh1.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    margin: -10px;
+}
+
+.body3 {
+    background-image: url(../img/jamesmosh3.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    margin: -10px;
+}
+.body4 {
+    background-image: url(../img/mario1.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    margin: -10px;
+}
+
+
+
+header {
+    max-width: 100%;
+    margin: -10px;
+    /* background-color: black; */
+}
+
+header img {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    position: center center;
+    repeat:  no-repeat;
+    attachment: fixed;
+    size:  cover;
+}
+
+nav {
+    background-color: black;
+    font-size: 45px;
+    height:70px;
+    padding-top: 20px;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+nav p {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+nav a {
+    background-color: black;
+    /* padding-right:20px; */
+    text-decoration: none;
+    color: rgba(244 153 193);
+    letter-spacing: 2px;
+    /* width: 120%; */
+    font-size: 45px;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+#iconshortcuts {
+  /* padding: 10px; */
+  /* position: relative; */
+
+  margin-right: 40px;
+  z-index:1
+  color: rgba(244 153 193);
+  float: right;
+}
+
+#iconshortcuts i{
+    font-size: 40px !important;
+}
+
+.news {
+  font-size: 75px;
+  text-align: center !important;
+  padding-bottom: 10px;
+
+}
+
+
+.blog {
+  margin: 0 auto;
+      width: 70%;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgba(244 153 193);
+  color: black;
+  border-bottom:  1px solid black;
+  }
+
+.blog p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.btitle {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin- left: 35%
+  margin-right: 35%
+}
+
+.blogbody {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom:  1px solid black;
+}
+
+.mmddyyyy {
+  display: inline-block;
+  float:left;
+}
+
+.showname {
+  display: inline-block;
+}
+
+.rsvpbutton {
+  display: inline;
+  border:  1px solid black;
+  text-decoration: none;
+  color: black;
+  border:  1px solid black;
+  padding: 4px;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+.tktbutton {
+  display: inline
+  border:  1px solid black;
+  text-decoration: none;
+    color: black;
+    border:  1px solid black;
+    padding: 4px;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.blogbody img {
+  padding: 10px;
+}
+
+.video {
+  font-size: 24pt;
+        width: 70%;
+  text-align: center;
+height: 600px;
+margin: 0 auto;
+    width: 70%;
+margin-bottom: 150px;
+}
+
+.videos {
+    text-align: center;
+    font-size: 60pt;
+}
+
+desc {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14pt;
+  display: inline-block;
+  line-height: 25px;
+}
+
+.presslink {
+  padding-left: 60px;
+  Text-align: left;
+  font-size: 16px !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 18px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgba(244 153 193);
+  color: black;
+  border: solid black 1px;
+
+}
