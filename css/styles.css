@@ -46,7 +46,7 @@ header img {
 nav {
     background-color: black;
     font-size: 45px;
-    height:70px;
+    /* height:70px; */
     padding-top: 30px;
     font-family: 'Abril Fatface', cursive;
 
@@ -58,7 +58,7 @@ nav p {
     margin: none;
     margin: 0 auto;
     text-align: center;
-    width: 100%;
+    width: 80%;
     background-color: black;
     font-family: 'Abril Fatface', cursive;
 }
